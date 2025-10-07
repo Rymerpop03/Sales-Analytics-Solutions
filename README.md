@@ -36,6 +36,7 @@ https://www.kaggle.com/datasets/beekiran/sales-data-analysis
 
 
 # Repository Structure
+```
 |-Sales-Analytics-Solutions
 |
 ||-README.md
@@ -43,7 +44,7 @@ https://www.kaggle.com/datasets/beekiran/sales-data-analysis
 ||-/sql - SQL scripts used for analysis
 ||-/visualizations - dashboard screenshots and key charts
 ||-/insights - docs containing business insights and recommendations
-
+```
 
 # Dashboard
 [Link to dashboard]
