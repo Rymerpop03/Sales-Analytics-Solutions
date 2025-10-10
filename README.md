@@ -29,7 +29,7 @@ https://www.kaggle.com/datasets/beekiran/sales-data-analysis
 
 # Analysis Questions
 - What products and regions drive the most revenue?
-- Which customers or products are most at risk of attrition?
+- When should we expect high volume of orders?
 - What are the sales trends over time?
 - What recommendations can be made to improve sales or customer retention?
 
