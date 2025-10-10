@@ -1,10 +1,10 @@
 # Sales-Solutions
-This repository showcases an end-to-end sales data analysis performed using SQL for data extraction and transformation, and Power BI for interactive dashboard. The project demonstrates my advanced analytical skills, business insights, and clear communication.
+This repository showcases an end-to-end sales data analysis performed using SQL for data extraction and transformation, and Tableau for interactive dashboard. The project demonstrates my advanced analytical skills, business insights, and clear communication.
 
 
 # Project Overview
 - Objective: Analyze sales data to uncover actionable insights on sales performance, product trends, and customer behaviors.
-- Tools Utilized: SQL (data cleaning, transforming, querying), Power BI (dashboard design, data visualization)
+- Tools Utilized: SQL (data cleaning, transforming, querying), Tableau (dashboard design, data visualization)
 - Dataset: Consists of sales of products over a 12 month period. Contains 11 columns, each representing an attribute of purchase on a product. Contains 185,951 records.
 
 
