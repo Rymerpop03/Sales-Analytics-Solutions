@@ -21,8 +21,7 @@ This repository showcases an end-to-end sales data analysis performed using SQL 
 - Hour - Hour of the sale
 
 Derrived Attributes: 
-- FirstMonth - Month of the first sale by that customer. Used to calculate customer retention
-- CustomerAge - Number of months after customers first purchase
+- State - derived from purchase address (TRIM(SPLIT(SPLIT([Purchase Address], ',', 3), ' ', 2)))
 
 https://www.kaggle.com/datasets/beekiran/sales-data-analysis
 
