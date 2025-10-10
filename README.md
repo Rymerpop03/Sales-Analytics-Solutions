@@ -15,8 +15,14 @@ This repository showcases an end-to-end sales data analysis performed using SQL 
 - Price Each - Price of a unit of that product
 - Order Date - Date on which the order is placed
 - Purchase Address - Address to where the order is shipped
+- Month - Month of the sale
+- Sales - Total sale value of all products in the order
+- City - City of the sale
+- Hour - Hour of the sale
 
-Derrived Attributes: Month, Sales, City, Hour
+Derrived Attributes: 
+- FirstMonth - Month of the first sale by that customer. Used to calculate customer retention
+- CustomerAge - Number of months after customers first purchase
 
 https://www.kaggle.com/datasets/beekiran/sales-data-analysis
 
