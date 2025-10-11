@@ -1,6 +1,21 @@
-    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/tableau-2.min.js'></script>
-    <div id='tableauViz'></div>
-    <script type='text/javascript'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales Dashboard Embed</title>
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <style>
+        #tableauViz {
+            width: 100vw;
+            height: 90vh;
+            min-height: 600px;
+        }
+        body { margin: 0; }
+    </style>
+</head>
+<body>
+    <div id="tableauViz"></div>
+    <script type="text/javascript">
         var viz;
         function initViz() {
             var containerDiv = document.getElementById("tableauViz"),
@@ -14,5 +29,7 @@
                 };
             viz = new tableau.Viz(containerDiv, url, options);
         }
-        initViz();
+        document.addEventListener("DOMContentLoaded", initViz);
     </script>
+</body>
+</html>
