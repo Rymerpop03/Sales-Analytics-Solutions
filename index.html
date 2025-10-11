@@ -1,1 +1,18 @@
-
+    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/tableau-2.min.js'></script>
+    <div id='tableauViz'></div>
+    <script type='text/javascript'>
+        var viz;
+        function initViz() {
+            var containerDiv = document.getElementById("tableauViz"),
+                url = "https://public.tableau.com/app/profile/rymer.popovich/viz/TechSalesDashboard_17602020628730/SalesDashboard#1",
+                options = {
+                    hideTabs: true,
+                    hideToolbar: true,
+                    onFirstInteractive: function () {
+                        console.log("Viz has loaded.");
+                    }
+                };
+            viz = new tableau.Viz(containerDiv, url, options);
+        }
+        initViz();
+    </script>
