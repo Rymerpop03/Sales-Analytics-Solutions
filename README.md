@@ -52,7 +52,7 @@ https://www.kaggle.com/datasets/beekiran/sales-data-analysis
 ```
 
 # Dashboard
-[Link to dashboard]
+[Sales Dashboard](https://public.tableau.com/views/TechSalesDashboard_17602020628730/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 
