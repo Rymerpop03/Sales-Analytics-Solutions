@@ -3,5 +3,3 @@ FROM `sales data`
 GROUP BY City
 ORDER BY total_revenue DESC;
 
-
-*.rb linguist-language=SQL
