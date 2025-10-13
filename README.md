@@ -46,9 +46,9 @@ https://www.kaggle.com/datasets/beekiran/sales-data-analysis
   |
   |--README.md
   |--/data                                 <- Original & cleaned datasets
+  |--/insights                             <- Docs containing business insights and recommendations
   |--/sql-scripts                          <- SQL scripts used for analysis
   |--/visualizations                       <- Dashboard screenshots and key charts
-  |--/insights                             <- Docs containing business insights and recommendations
 ```
 
 # Dashboard
